@@ -1,0 +1,29 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(117, 112, 112);
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    width: 24.90%;
+    border-right: solid wheat 1px
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    color: white;   
+}
+
+li a:hover:not(active) {
+    background-color: #111;
+}
