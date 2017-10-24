@@ -79,7 +79,7 @@ table, th, td{
     border-collapse: collapse;
 }
 td, th{
-    padding: 5px;
+    padding: 10px;
     font-family: 'Play', sans-serif;
     font-size: 1.2em;
     background-color: #FFF700;
@@ -103,4 +103,20 @@ div.gallery img{
 }
 div.gallery img:hover{
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+article{
+    display: inline-block;
+}
+
+/* footer */
+footer{
+    height: 100px;
+    background-color: #3BAAE6;
+    margin: auto;
+}
+footer>p{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 2em;
+    
 }
