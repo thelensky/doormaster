@@ -30,7 +30,6 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 li{
     float: left;
@@ -49,7 +48,7 @@ li a:hover{
     color: white;
 }
 main{
-    margin-left: 10%;
+    margin: auto;
     width: 80%;
     text-align: center;
 
@@ -65,13 +64,13 @@ h2{
 }
 p{
     font-family: 'Ubuntu', sans-serif;
-    
+    justify-content: flex-start;
     color: #7B4300;
 }
 
 
 table{
-    margin: 0 25%;
+    margin: auto;
     width: 50%;
 }
 table, th, td{
@@ -84,4 +83,23 @@ td, th{
     font-size: 1.2em;
     background-color: #FFF700;
     color: #7B4300;
+}
+
+/*galereya*/
+div.gallery{
+    margin: 5px;
+    float: left;
+    width: 180px;
+
+}
+div.gallery img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: solid 1px #FFF700;
+    padding: 5px;
+    
+}
+div.gallery img:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
