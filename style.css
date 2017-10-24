@@ -1,29 +1,87 @@
-ul {
+body{
+    margin:5px;
+}
+/*header*/
+header{
+    height: 100px;
+    background-color: #3BAAE6;
+    margin:0;
+    border-bottom: solid 15px #8ACEF2;
+
+}
+h1{
+    padding-top: 30px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 2px;
+    font-family: 'Lobster', cursive;
+    color: #02344E;
+    
+}
+/*navbar*/
+nav{
+    display: block;
+    margin: 10px 0;
+    padding: 0;
+    border-bottom: solid 1px #9E3EE9;
+}
+
+ul{
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    list-style-type: none;
-    background-color: rgb(117, 112, 112);
     overflow: hidden;
 }
-
-li {
+li{
     float: left;
-    width: 24.90%;
-    border-right: solid wheat 1px
+    width: 19.9999%;
+    font-size: 1.5em;
 }
-
-li:last-child {
-    border-right: none;
-}
-
-li a {
+li a{
     display: block;
-    padding: 0.5em 1em;
-    text-align: center;
     text-decoration: none;
-    color: white;   
+    text-align: center;
+    overflow: hidden;
+    
+}
+li a:hover{
+    background-color: #300353;
+    color: white;
+}
+main{
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+
 }
 
-li a:hover:not(active) {
-    background-color: #111;
+h2{
+    font-family: 'Philosopher', sans-serif;
+    margin: 1em;
+    color: #7B7700;
+    border-bottom: solid 1px #FFF937;
+    padding-bottom: 1em;
+
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    
+    color: #7B4300;
+}
+
+
+table{
+    margin: 0 25%;
+    width: 50%;
+}
+table, th, td{
+    border: 1px solid #7D07D8;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 5px;
+    font-family: 'Play', sans-serif;
+    font-size: 1.2em;
+    background-color: #FFF700;
+    color: #7B4300;
 }
