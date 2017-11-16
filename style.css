@@ -32,19 +32,19 @@ ul{
     padding: 0;
     overflow: hidden;
 }
-li{
+ul>li{
     float: left;
     width: 19.9999%;
     font-size: 1.5em;
 }
-li a{
+ul>li a{
     display: block;
     text-decoration: none;
     text-align: center;
     overflow: hidden;
     
 }
-li a:hover{
+ul>li a:hover{
     background-color: #300353;
     color: white;
 }
@@ -52,6 +52,7 @@ main{
     margin: auto;
     width: 80%;
     text-align: center;
+    clear: both;
 
 }
 
@@ -62,13 +63,14 @@ h2{
     border-bottom: solid 1px #FFF937;
     padding-bottom: 1em;
 
+
 }
-p{
+p, ol{
     font-family: 'Ubuntu', sans-serif;
     justify-content: flex-start;
     color: #7B4300;
+    text-align: left;
 }
-
 
 table{
     margin: auto;
@@ -103,9 +105,10 @@ div.gallery img{
 }
 div.gallery img:hover{
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    display: inline;
 }
 article{
-    display: inline-block;
+    clear: both;
 }
 
 /* footer */
