@@ -110,6 +110,11 @@ div.gallery img:hover{
 article{
     clear: both;
 }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* footer */
 footer{
